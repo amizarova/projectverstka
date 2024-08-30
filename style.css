@@ -1,0 +1,53 @@
+.header-top {
+    width: 1440px;
+    height: 40px;
+    background-color: #F4F4F4;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-top-element {
+    margin-right: 20px;
+    color: #AAAAAA;
+    font-size: 12px;
+}
+
+.header-low {
+    width: 1440px;
+    height: 99px;
+    border-block-end: solid #F4F4F4;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.header-low-element {
+    color: #000000;
+    font-size: 12px;   
+}
+
+.room-photo {
+    width: 1327px;
+    height: 746px;
+    margin: 35px;
+}
+
+.slogan {
+    width: 1200px;
+    height: 174px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sloganheader {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.slogantext {
+    font-size: 24px;
+    font-weight: 400;
+    color: #AAAAAA;
+}
