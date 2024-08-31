@@ -62,6 +62,11 @@
     margin-bottom: 60px;
 }
 
+.brand-information {
+    align: center;
+    margin-bottom: 160px;
+}
+
 .brand-information-header {
     font-size: 48px;
     font-weight: 400;
@@ -78,7 +83,44 @@
     width: 720px;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: wrap;  
+}
+
+.marketing-info {
+display: flex;
+justify-content: center;
+margin-bottom: 60px;
+}
+
+.marketing-info-slogan {
+font-size: 48px;
+font-weight: 400;
+}
+
+.marketing-info-text {
+font-size: 14px;
+font-weight: 400;
+color: #46856E;
+}
+
+.marketing-icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.marketing-text {
+    display: flex;
+    justify-content: space-around;
+    color: #AAAAAA;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 120px;
+}
+
+.marketing-header {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 400;
 }
 
 
