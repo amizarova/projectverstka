@@ -1,127 +1,56 @@
-.header-top {
+.nav-top {
     width: 1440px;
     height: 40px;
     background-color: #F4F4F4;
+    color: #AAAAAA;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    gap: 20px;
 }
 
-.header-top-element {
-    margin-right: 20px;
-    color: #AAAAAA;
-    font-size: 12px;
-}
-
-.header-low {
+.nav-down {
     width: 1440px;
     height: 99px;
-    border-block-end: solid #F4F4F4;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-around;
+    align-items: center;
+    border: solid #F4F4F4;
+    margin-bottom: 60px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-controls-location {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.content {
+    width: 1440px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
     align-items: center;
 }
 
-.header-low-element {
-    color: #000000;
-    font-size: 12px;   
-}
-
-.room-photo {
-    width: 1327px;
-    height: 746px;
-    margin: 35px;
-}
-
-.slogan {
+.risk-trial {
     width: 1200px;
-    height: 174px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 465px;
+    background-color: #F2F2F2;
 }
 
-.sloganheader {
-    font-size: 48px;
-    font-weight: 400;
+.footer {
+    width: 1440px;
+    height: 619px;
+    background-color: #2B2B2B;
 }
 
-.slogantext { 
-    font-size: 24px;
-    font-weight: 400;
-    color: #AAAAAA;
-}
 
-.photo-rooms {
-    width: 1296px;
-    height: 962px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 60px;
-    margin-bottom: 60px;
-}
-
-.brand-information {
-    align: center;
-    margin-bottom: 160px;
-}
-
-.brand-information-header {
-    font-size: 48px;
-    font-weight: 400;
-    text-align: center;
-}
-
-.brand-information-text {
-    font-size: 24px;
-    font-weight: 400;
-    text-align: center;
-    margin-bottom: 60px;
-}
-.brand-logo {
-    width: 720px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;  
-}
-
-.marketing-info {
-display: flex;
-justify-content: center;
-margin-bottom: 60px;
-}
-
-.marketing-info-slogan {
-font-size: 48px;
-font-weight: 400;
-}
-
-.marketing-info-text {
-font-size: 14px;
-font-weight: 400;
-color: #46856E;
-}
-
-.marketing-icons {
-    display: flex;
-    justify-content: space-around;
-}
-
-.marketing-text {
-    display: flex;
-    justify-content: space-around;
-    color: #AAAAAA;
-    font-size: 16px;
-    font-weight: 400;
-    margin-bottom: 120px;
-}
-
-.marketing-header {
-    color: #000000;
-    font-size: 24px;
-    font-weight: 400;
-}
 
 
 
