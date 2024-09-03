@@ -38,6 +38,48 @@
     align-items: center;
 }
 
+.slogan {
+    width: 1200px;
+    height: 174px; 
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+
+.slogan-header {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.slogan-text {
+    font-size: 24px;
+    font-weight: 400;
+    color:#AAAAAA;
+}
+
+.example-photo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.brands-info {
+}
+
+.brands-header {
+font-size: 48px;
+font-weight: 400;
+}
+
+.brands-text {
+font-size: 24px;
+color: #4A4A4A;
+}
+
+.brands-logos {
+
+}
+
 .risk-trial {
     width: 1200px;
     height: 465px;
