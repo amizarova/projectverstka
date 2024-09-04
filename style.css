@@ -63,27 +63,116 @@
     flex-wrap: wrap;
 }
 
-.brands-info {
-}
-
 .brands-header {
-font-size: 48px;
-font-weight: 400;
+    font-size: 48px;
+    font-weight: 400;
 }
 
 .brands-text {
-font-size: 24px;
-color: #4A4A4A;
+    font-size: 24px;
+    olor: #4A4A4A;
 }
 
 .brands-logos {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 65px;
+    width: 1144.5px;
+    height: 327px;
+}
 
+.marketing-info {
+    width: 1090px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.marketing-info-bold {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.marketing-info-text {
+    font-size: 14px;
+    color: #46856E;
+}
+
+
+
+.marketing {
+    display: flex;
+    justify-content: space-around;
+}
+
+.marketing-bold {
+    font-size: 24px;
+    color: black;
+}
+
+.marketing-text {
+    font-size: 16px;
+    color: #AAAAAA;
+}
+
+.motto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 882px;
+}
+
+.motto-bold {
+    font-size: 46px;
+    font-weight: 400;
+    color: #AAAAAA;
+}
+
+.motto-text {
+    font-size: 46px; 
+}
+
+.container {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.container-text {
+    width: 530px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-size: 16px;
+    color: #AAAAAA;
+}
+
+.container-text-bold {
+    font-size: 32px;
+    color:#1A1A1A;
+}
+
+.container-left {
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
 }
 
 .risk-trial {
     width: 1200px;
     height: 465px;
     background-color: #F2F2F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .footer {
