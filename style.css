@@ -36,6 +36,7 @@
     flex-direction: column; 
     justify-content: center;
     align-items: center;
+    gap:200px;
 }
 
 .slogan {
@@ -70,7 +71,7 @@
 
 .brands-text {
     font-size: 24px;
-    olor: #4A4A4A;
+    color: #4A4A4A;
 }
 
 .brands-logos {
@@ -172,13 +173,64 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 30px;
+    gap: 50px;
+    color: #1A1A1A;
 }
+
+.risk-trial-header {
+    font-size: 46px;
+    color: black;
+}
+
+.risk-trial-items {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    font-size: 12px;
+    color: #1A1A1A;
+}
+ .risk-trial-items-text {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .risk-trial-terms {
+    font-size: 12px;
+    color: #AAAAAA;
+ }
+
+ .button {
+    font-size: 12px;
+    color: #FFFFFF;
+    background-color: #46856E;
+    padding: 10px;
+    border-color:#46856E ;
+ }
+
 
 .footer {
     width: 1440px;
     height: 619px;
     background-color: #2B2B2B;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    color: #F2F2F2;
+    font-size: 14px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.text-agreement {
+    color: #FFFFFF80;
 }
 
 
